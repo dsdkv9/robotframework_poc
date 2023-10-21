@@ -11,7 +11,7 @@ ${HOST}
 My Test
     [Documentation]    Example test.
     Log    ${MESSAGE}
-    My Keyword    ${CURDIR}
+    Given My Keyword    ${CURDIR}
 
 Another Test
     Should Be Equal    ${MESSAGE}    Hello, world!
