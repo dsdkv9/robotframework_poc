@@ -3,12 +3,12 @@ pipeline {
   stages {
     stage("build") {
       steps {
-        echo 'Jenkins stage .. build"
+        echo 'Jenkins stage .. build'
       }
     }
     stage("test") {
       steps {
-        echo 'Jenkins stage .. test"
+        echo 'Jenkins stage .. test'
       }
     }
     stage("release") {
